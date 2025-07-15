@@ -33,5 +33,30 @@ public class Main {
         
         System.out.println("");
     // }
+
+      for(int i = 0; i <= a; i++)
+    {
+        //space
+        for(int j = 1; j <= a-i; j++){
+            System.out.print(" ");
+        }
+        //Star
+        for(int k = 1; k <=((2*i) - 1); k++){
+            System.out.print("*");
+        }
+        System.out.println("");
+    }
+    for(int i = a-1; i >= 0; i--)
+    {
+        //spaces
+        for(int j= a-i; j >= 1; j--){
+            System.out.print(" ");
+        }
+        
+        for(int k = (2*i) - 2;k >= 0; k--){
+            System.out.print("*");
+        }
+        System.out.println("");
+    }
   }
 }
